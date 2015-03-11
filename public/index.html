@@ -66,9 +66,14 @@
                         <div class="controls">
                             <textarea id="androidOptions" name="androidOptions" class="json-textarea source input-xlarge">
 {
-    "collapseKey": "optional",
+    "collapseKey": "sparrow_update",
     "data": {
-        "message": "You message here"
+        "message": {
+            "name": "New Address",
+            "address": "P. Sherman, 42 Wallaby way, Sydney",
+            "lat": 73,
+            "lon": -45
+        }
     }
 }
                             </textarea>
@@ -86,7 +91,12 @@
                             <textarea id="iosOptions" name="iosOptions" class="json-textarea source input-xlarge">
 {
     "badge": 0,
-    "alert": "Your message here",
+    "alert": {
+        "name": "New Address",
+        "address": "P. Sherman, 42 Wallaby way, Sydney",
+        "lat": 73,
+        "lon": -45
+    },
     "sound": "soundName"
 }
                             </textarea>
